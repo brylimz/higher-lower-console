@@ -26,6 +26,7 @@ def check_answer(guess, a_followers, b_followers):
 
 
 # make the game repeatable
+
 while game_should_continue:
 
     # generate a random account from the game data
@@ -54,7 +55,10 @@ while game_should_continue:
     else:
         game_should_continue = False
         print(f"Sorry, that's wrong. Final score: {score}")
-
-# score keeping
+        play = input("do you wanna play again? 'Y' or 'N'").lower()
+        if play == "y":
+            game_should_continue = True
+        else:
+            print("Have a nice day")
 
 # clear the screen between rounds
