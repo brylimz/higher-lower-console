@@ -1,4 +1,3 @@
-# display art
 import art
 import random
 from game_data import data
@@ -60,5 +59,3 @@ while game_should_continue:
             game_should_continue = True
         else:
             print("Have a nice day")
-
-# clear the screen between rounds
