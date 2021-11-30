@@ -1,4 +1,4 @@
-data = [
+dataz = [
     {
         'name': 'Instagram',
         'follower_count': 346,
